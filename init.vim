@@ -8,7 +8,14 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ajh17/VimCompletesMe'
+"TS plugin's
+Plug 'pangloss/vim-javascript'    " JavaScript support
+Plug 'leafgarland/typescript-vim' " TypeScript syntax
+Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+Plug 'jparise/vim-graphql'        " GraphQL syntax
+Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 call plug#end()
+call coc#util#install()
 colorscheme gruvbox
 set background=dark
 "Arquivo de configurações iniciais do vim
@@ -25,4 +32,5 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 nnoremap <c-s> :w<cr>
-
+nnoremap <leader>ccn :Coclist commands<cr>
+let g:coc_global_extensions = [ 'coc-tsserver' ]
