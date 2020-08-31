@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/rafael/Documentos/Upcode/modaOnline/modaonline/app_parceirosfrontend/src/app/pages'
+let g:netrw_dirhist_9='/home/rafael/Documentos/Upcode/modaOnline/modaonline/app_parceirosfrontend/src/app'
+let g:netrw_dirhist_8='/home/rafael/Documentos/Upcode/modaOnline/modaonline/app_parceirosfrontend/src'
+let g:netrw_dirhist_7='/home/rafael/Documentos/Upcode/modaOnline/modaonline/app_parceirosfrontend'
+let g:netrw_dirhist_6='/home/rafael/Documentos/Projeto MercadoOnline/mercadoApp/src/app/core/services'
+let g:netrw_dirhist_5='/home/rafael/Documentos/Projeto MercadoOnline/mercadoApp/src/app/core'
+let g:netrw_dirhist_4='/home/rafael/Documentos/Projeto MercadoOnline/mercadoApp/src/app'
+let g:netrw_dirhist_3='/home/rafael/Documentos/Projeto MercadoOnline/mercadoApp/src'
+let g:netrw_dirhist_2='/home/rafael/Documentos/Projeto MercadoOnline/mercadoApp'
+let g:netrw_dirhist_1='/home/rafael/Documentos/Projeto MercadoOnline/mercadoApp/src/app/home'
