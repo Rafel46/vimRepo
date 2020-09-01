@@ -13,9 +13,11 @@ Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
 Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
 Plug 'jparise/vim-graphql'        " GraphQL syntax
+Plug 'scrooloose/nerdtree' "Barra Lateral
+Plug 'Yggdroot/indentLine'
+Plug 'bling/vim-airline'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 call plug#end()
-call coc#util#install()
 colorscheme gruvbox
 set background=dark
 "Arquivo de configurações iniciais do vim
@@ -33,4 +35,5 @@ nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 nnoremap <c-s> :w<cr>
 nnoremap <leader>ccn :Coclist commands<cr>
+nnoremap <leader>\ :NERDTree<cr>
 let g:coc_global_extensions = [ 'coc-tsserver' ]
