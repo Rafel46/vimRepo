@@ -14,6 +14,8 @@ Plug 'mattn/emmet-vim'
 Plug 'w0rp/ale'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']
 call plug#end()
 colorscheme gruvbox
 set background=dark
